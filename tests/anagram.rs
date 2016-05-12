@@ -20,7 +20,6 @@ mod tests {
 	}
 
 	#[test]
-	#[ignore]
 	fn test_does_not_confuse_different_duplicates() {
 		let inputs = ["eagle"];
 		let outputs: Vec<&str> = vec![];
