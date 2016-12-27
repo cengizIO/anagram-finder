@@ -1,0 +1,8 @@
+box: scorpil/rust:nightly
+
+build:
+  steps:
+    - script:
+        name: cargo
+        code: |
+          cargo test
